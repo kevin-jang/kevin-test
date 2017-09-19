@@ -1,13 +1,13 @@
-/**************************************************************
+/*****
  *
  *  eth.c : Manage all data and send/recv through UDP or TCP.
  *	
  *   Kevin Jang		
  *   - 13 Feb 2007 at AGNC  (UDP module)
  *   - 13 Apr 2009 at ARINC (add TCP module)	
- *   - 19 Sep 2017 at HOME
+ *   - 19 Sep 2009 at HOME 
  *
- **************************************************************/
+ *****/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,7 +35,7 @@
 
 #define	MAX_RCV_SZ	1024
 
-char StrTcpUdp[][10] = { "TCP",    "UDP",    "\0"}; 
+char StrTcpUdp[][10] = { "TCP", "UDP", "\0"}; 
 char StrSerCli[][10] = { "SERVER", "CLIENT", "\0"}; 
 
 void showEth(tEth *ethptr)

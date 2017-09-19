@@ -1,6 +1,2 @@
-gcc  -c -DLINUX=1 winutl.c ser.c eth.c
-ar rv ../utl/utllib.a winutl.o ser.o eth.o
-r - winutl.o
-r - ser.o
-r - eth.o
 
+make: *** No rule to make target `pipe.c', needed by `../utl/utllib.lib'.  Stop.

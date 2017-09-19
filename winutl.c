@@ -2953,7 +2953,7 @@ int main(int argc,char *argv[])
 
 	for(i=1; i<argc; i++)
 	{
-		printf(" [%d] %s --> result=%ld\n", i, argv[i], areAll(E_ISDIGIT, argv[i], strlen(argv[i])));
+		printf(" [%d] %s --> result=%d\n", i, argv[i], areAll(E_ISDIGIT, argv[i], strlen(argv[i])));
 	}
 
 	return 0;
